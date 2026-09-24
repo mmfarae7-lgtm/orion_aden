@@ -1,0 +1,6 @@
+Options -Indexes
+<FilesMatch "\.(sql|md|log)$">
+    Deny from all
+</FilesMatch>
+AddType application/manifest+json .webmanifest
+AddType application/manifest+json .json

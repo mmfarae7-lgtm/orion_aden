@@ -1,0 +1,41 @@
+<?php
+header('Content-Type: application/manifest+json; charset=utf-8');
+header('Cache-Control: no-cache, must-revalidate');
+?>
+{
+  "name": "Orion - نظام إدارة المعاهد",
+  "short_name": "Orion",
+  "description": "نظام أوريون لإدارة المدارس والمعاهد",
+  "start_url": "/login.php",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
